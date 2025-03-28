@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'InterBold';
+    src: url(../fonts//inter-font/Inter_28pt-Bold.ttf);
+}
+
+p {
+    font-family: 'InterBold', sans-serif;
+    font-size: 400px;
+    padding: 0;
+    margin: 0;
+    color: transparent; 
+    -webkit-text-stroke: 8px black; 
+    text-shadow: none;
+}
