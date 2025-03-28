@@ -1,46 +1,72 @@
+@font-face {
+    font-family: 'InterRegular';
+    src: url(../fonts/inter-font/Inter_18pt-Regular.ttf);
+}
+
 .navbar {
     display: flex;
-    justify-content: center;
-    background-color: #121212;
-    padding: 10px 0;
-  }
-  
-  .nav-list {
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Ensures spacing between image and links */
+    padding: 10px 20px;
+    position: relative;
+    background-color: black;
+}
+
+.nav-list {
     list-style: none;
     display: flex;
     gap: 20px;
     padding: 0;
-  }
-  
-  .nav-list li {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.nav-list li {
     position: relative;
-  }
-  
-  .nav-list a, .nav-list button {
+}
+
+.nav-list a, 
+.nav-list button {
     text-decoration: none;
     color: white;
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: white;
-    list-style: none;
-    padding: 10px;
+    font-size: 20px;
+    font-family: 'InterRegular', sans-serif;
+}
+
+.vansh_lp {
+    width: 70px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.button-carry{
+    padding-right: 50px;
+}
+.download-button {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #62bc4a, #1b9f46); 
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px; 
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: bold;
+    gap: 8px; 
+    transition:  0.3s ease-in-out;
   }
   
-  .dropdown-menu li {
-    margin-bottom: 5px;
+  .download-button:hover {
+    background: linear-gradient(90deg, #4ea838, #168a3a); 
   }
   
-  .dropdown-menu a {
-    color: black;
+  .pdf-icon {
+    width: 25px; 
+    height: auto;
   }
   
