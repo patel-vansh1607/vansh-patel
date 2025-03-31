@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'ManropeRegular';
+    src: url(./fonts/manrope-font/Manrope-Regular.ttf);
+}
+
+
 body{
     background-color:#121212;
 
@@ -12,15 +18,31 @@ body{
 .profile {
     display: flex;
     align-items: center; 
+    gap: 100px;
+    justify-content: center;
+    padding-top: 100px;
 }
-  
+
 .logos1 {
     display: flex;
     flex-direction: row;
   }
-
-.info p{
-    color: #ffffff;
+.info{
+    gap: 200px;
 }
-
+.info .p1{
+    color: #ffffff;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 20px;
+}
+.info .name1{
+    color: #ffffff;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.logos1{
+    height: 45px;
+    gap: 10px;
+}
 
