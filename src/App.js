@@ -15,8 +15,8 @@ function App() {
               <img src={vanshmain} className="vanshmain" alt="vanshmain" />
             </div>
             <div className="info">
-                <p>Hello, I'm</p>
-                <p>Vansh Patel</p>
+                <p className="p1">Hello, I'm</p>
+                <p className="name1">Vansh Patel</p>
                 <TypeWriterr />
                 <div className="logos1">
                   <img src={github1} className="github1" alt="github1" />
