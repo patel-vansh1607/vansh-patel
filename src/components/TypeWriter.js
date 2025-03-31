@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "../styles/TypeWriter.css"
 
 const Typewriter = ({ texts, period = 2000 }) => {
   const [text, setText] = useState("");
