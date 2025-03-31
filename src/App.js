@@ -18,8 +18,10 @@ function App() {
                 <p>Hello, I'm</p>
                 <p>Vansh Patel</p>
                 <TypeWriterr />
-                <img src={github1} className="github1" alt="github1" />
-                <img src={linkedin1} className="linkedin1" alt="linkedin1" />
+                <div className="logos1">
+                  <img src={github1} className="github1" alt="github1" />
+                  <img src={linkedin1} className="linkedin1" alt="linkedin1" />
+                </div>
             </div>
         </div>
 
