@@ -8,6 +8,7 @@ body{
     border-radius: 50%; 
     object-fit: cover; 
 }
+
 .profile {
     display: flex;
     align-items: center; 
@@ -18,5 +19,8 @@ body{
     flex-direction: row;
   }
 
+.info p{
+    color: #ffffff;
+}
 
 
