@@ -64,7 +64,18 @@ body{
     border-radius: 50%; 
     object-fit: cover; 
 }
-
+.facts {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+  
+    
+}
+  .facts p{
+      max-width: 800px;
+  }
+  
+  
 .about-section .moreinfo h1{
     color: #ffffff;
     font-family: 'ManropeRegular', sans-serif;
