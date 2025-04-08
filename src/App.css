@@ -3,9 +3,13 @@
     src: url(./fonts/manrope-font/Manrope-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'SpaceBold ';
+    src: url(./fonts/space-grotesk-font/SpaceGrotesk-Bold.ttf);
+}
 
 body{
-    background-color:#121212;
+    background-color:#0c0c0c;
 
 }
 .vanshmain {
@@ -46,3 +50,32 @@ body{
     gap: 10px;
 }
 
+.faded-hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, white, transparent);
+    width: 100%;
+    margin: 2rem 0;
+  }
+  
+.aboutvansh {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.about-section .moreinfo h1{
+    color: #ffffff;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.about-section .facts p{
+    color: #ffffff;
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
