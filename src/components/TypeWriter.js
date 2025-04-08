@@ -40,7 +40,7 @@ const Typewriter = ({ texts, period = 2000 }) => {
 };
 
 const TypeWriterr = () => {
-  return <Typewriter texts={["Hi, I'm Si.", "I am Creative.", "I Love Design.", "I Love to Develop."]} period={2000} />;
+  return <Typewriter texts={["Graphic Designer", "Full-Stack Engineering Student", "Photographer", "Videographer", "Video Editor", "UI/UX Designer", "Proud Developer"]} period={2000} />;
 };
 
 export default TypeWriterr;
