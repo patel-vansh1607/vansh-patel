@@ -31,8 +31,8 @@ function App() {
                 <h1>ABOUT ME</h1>
             </div>
             <div className="facts">
+            <p>I'm a full-stack developer and graphic designer with a passion for creating dynamic web applications and stunning visual designs. I specialize in building modern frontends with React and Tailwind CSS, and backend systems with Node.js and Python. As a graphic designer, I focus on crafting intuitive user interfaces and visually appealing assets. My goal is to merge beautiful design with seamless functionality to create impactful user experiences. Outside of coding, I'm constantly exploring new design techniques and staying updated with the latest design trends.</p>
               <img src={aboutvansh} className="aboutvansh" alt="aboutvansh" />
-              <p>I'm a full-stack developer and graphic designer with a passion for creating dynamic web applications and stunning visual designs. I specialize in building modern frontends with React and Tailwind CSS, and backend systems with Node.js and Python. As a graphic designer, I focus on crafting intuitive user interfaces and visually appealing assets. My goal is to merge beautiful design with seamless functionality to create impactful user experiences. Outside of coding, I'm constantly exploring new design techniques and staying updated with the latest design trends.</p>
             </div>
         </div>
       </div>
