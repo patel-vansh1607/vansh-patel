@@ -5,8 +5,8 @@
 
 .navbar {
     display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: space-between; /* Ensures spacing between image and links */
+    align-items: center;
+    justify-content: space-between; 
     padding: 10px 20px;
     position: relative;
 }
@@ -29,7 +29,7 @@
 .nav-list a, 
 .nav-list button {
     text-decoration: none;
-    color: white ;
+    color: #57dcb4 ;
     background: none;
     border: none;
     cursor: pointer;
