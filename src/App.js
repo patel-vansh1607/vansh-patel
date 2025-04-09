@@ -51,9 +51,11 @@ function App() {
                 <p>Front-End Developement</p>
               {skillsData.map((skill, index) => (
                 <motion.div key={index} className="skill-card" >
-                  <img src={skill.image} alt={skill.title} />
-                  <h3>{skill.title}</h3>
-                  <p>{skill.description}</p>
+                  <img src={skill.image} alt={skill.title} className='skill-image' />
+                  <div className='text-area'>
+                    <h3 className='skill-header'>{skill.title} </h3>
+                    <p className='skill-para'>{skill.description}</p>
+                  </div>
                 </motion.div>
               ))}
               </div>
