@@ -92,3 +92,16 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.skill-card {
+    display: flex;
+  }
+  
+  .skill-image {
+   width: 100px;
+  }
+  
+  .text-area {
+
+  }
+  
