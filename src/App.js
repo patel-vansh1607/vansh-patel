@@ -44,6 +44,7 @@ function App() {
                 <img src={aboutvansh} className="aboutvansh" alt="aboutvansh" />
               </div>
               <div className='intrests'>
+                <div className='div1'> 
                 <h1 className='intrest-h1'>INTERESTS</h1>
                 <ul>
                   <li>Web Development</li>
@@ -52,8 +53,13 @@ function App() {
                   <li>Photography</li>
                   <li>Traveling</li>
                 </ul>
-                
-                
+                </div>
+                <div className='div2'> 
+                <h1 className='intrest-h2'>INTERESTS</h1>
+                <ul>
+                  <li>Melvin Jones Lions Academy<br></br> <span className='sspan'>Sept 2012 - Sept 2024</span></li>
+                </ul>
+                </div>
               </div>
             </div>
           </div>
