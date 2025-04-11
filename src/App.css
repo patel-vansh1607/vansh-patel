@@ -108,4 +108,35 @@ body{
     font-family: 'ManropeRegular', sans-serif;
 
   }
-  
+  .intrests{
+    color: #ffffff;
+    display: flex;
+  }
+
+  .intrest-h1{
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 50px;
+    display: flex;
+    padding-left: 250px;
+  }
+  .intrests ul{
+    padding-left: 290px;   
+  }
+
+  .intrests li{
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 20px;
+  }
+
+
+  .intrest-h2{
+    font-family: 'ManropeRegular', sans-serif;
+    font-size: 50px;
+    display: flex;
+    padding-left: 250px;
+  }
+.sspan{
+    font-style: italic;
+    color: gray;
+    font-size: 20px;
+}
