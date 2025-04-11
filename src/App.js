@@ -92,11 +92,29 @@ function App() {
                       August 2024 - Present
                     </span>
                     </li>
-
-
                 </ul>
                 </div>
               </div>
+              <div className="social-container">
+                <h1 className="title">FIND ME ON</h1>
+                <p className="subtitle">
+                  Feel free to <span className="highlight">connect</span> with me
+                </p>
+                <div className="icons">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-github"></i>
+                  </a>
+                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </div>
+            </div>
             </div>
           </div>
         </>
