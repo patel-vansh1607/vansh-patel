@@ -8,6 +8,7 @@ import vanshmain from "./images/vansh-main.jpg";
 import aboutvansh from "./images/about-vansh.jpg";
 import github1 from "./images/github.png";
 import linkedin1 from "./images/linkedin.png";
+import Footer from './components/Footer';
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -111,6 +112,7 @@ function App() {
                 </div>
             </div>
             </div>
+            <Footer />
           </div>
         </>
       )}
