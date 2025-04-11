@@ -1,159 +1,168 @@
 @font-face {
-    font-family: 'ManropeRegular';
-    src: url(./fonts/manrope-font/Manrope-Regular.ttf);
+  font-family: 'ManropeRegular';
+  src: url(./fonts/manrope-font/Manrope-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'SpaceBold ';
-    src: url(./fonts/space-grotesk-font/SpaceGrotesk-Bold.ttf);
+  font-family: 'SpaceBold';
+  src: url(./fonts/space-grotesk-font/SpaceGrotesk-Bold.ttf);
 }
 
-body{
-    background-color:#1d2a35;
-
+body {
+  background-color: #1d2a35;
 }
+
 .vanshmain {
-    width: 350px; 
-    height: 350px; 
-    border-radius: 50%; 
-    object-fit: cover; 
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .profile {
-    display: flex;
-    align-items: center; 
-    gap: 100px;
-    justify-content: center;
-    padding-top: 100px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 .logos1 {
-    display: flex;
-    flex-direction: row;
-  }
-.info{
-    gap: 200px;
+  display: flex;
+  flex-direction: row;
 }
-.info .p1{
-    color: #ffffff;
-    font-family: 'ManropeRegular', sans-serif;
-    font-size: 20px;
+
+.info {
+  gap: 200px;
 }
-.info .name1{
-    color: #ffffff;
-    font-family: 'ManropeRegular', sans-serif;
-    font-size: 30px;
-    font-weight: 500;
+
+.info .p1 {
+  color: #ffffff;
+  font-family: 'ManropeRegular', sans-serif;
+  font-size: 20px;
 }
-.logos1{
-    height: 45px;
-    gap: 10px;
+
+.info .name1 {
+  color: #00ffe7;
+  font-family: 'ManropeRegular', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.logos1 {
+  height: 45px;
+  gap: 10px;
 }
 
 .faded-hr {
-    border: none;
-    height: 2px;
-    background: linear-gradient(to right, transparent, white, transparent);
-    width: 100%;
-    margin: 2rem 0;
-  }
-  
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #84ffff, transparent);
+  width: 100%;
+  margin: 2rem 0;
+}
+
 .aboutvansh {
-    width: 300px; 
-    height: 300px; 
-    border-radius: 50%; 
-    object-fit: cover; 
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
 }
+
 .facts {
-    display: flex;
-    align-items: center; 
-    gap: 90px; 
-    justify-content: center ;
-  
-    
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  justify-content: center;
 }
-  .facts p{
-      max-width: 800px;
-      text-align: right;
-  }
-  
-  
-.about-section .moreinfo h1{
-    color: #ffffff;
-    font-family: 'ManropeRegular', sans-serif;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
+
+.facts p {
+  max-width: 800px;
+  text-align: right;
+  color: #ffffff;
 }
-.about-section .facts p{
-    color: #ffffff;
-    font-family: 'ManropeRegular', sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
+
+.about-section .moreinfo h1 {
+  color: #84ffff;
+  font-family: 'ManropeRegular', sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-section .facts p {
+  color: #ffffff;
+  font-family: 'ManropeRegular', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .skill-card {
-    display: flex;
-  }
-  
-  .skill-image {
-   width: 50px;
-   height: 50px;
-   align-content: center;
-   justify-items: center;
-  }
-  
-  .text-area {
-    font-family: 'ManropeRegular', sans-serif;
-
-  }
-  .intrests{
-    color: #ffffff;
-    display: flex;
-  }
-
-  .intrest-h1{
-    font-family: 'ManropeRegular', sans-serif;
-    font-size: 50px;
-    display: flex;
-    padding-left: 250px;
-  }
-  .intrests ul{
-    padding-left: 290px;   
-  }
-
-  .intrests li{
-    font-family: 'ManropeRegular', sans-serif;
-    font-size: 20px;
-  }
-
-
-  .intrest-h2{
-    font-family: 'ManropeRegular', sans-serif;
-    font-size: 50px;
-    display: flex;
-    padding-left: 250px;
-  }
-.sspan{
-    font-style: italic;
-    color: gray;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
 }
 
-.ssspan{
-    color: rgb(92, 91, 91);
-    font-family:'Times New Roman', Times, serif;
+.skill-image {
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  justify-items: center;
+}
+
+.text-area {
+  font-family: 'ManropeRegular', sans-serif;
+}
+
+.intrests {
+  color: #ffffff;
+  display: flex;
+}
+
+.intrest-h1 {
+  font-family: 'ManropeRegular', sans-serif;
+  font-size: 50px;
+  display: flex;
+  padding-left: 250px;
+  color: #00ffe7;
+}
+
+.intrests ul {
+  padding-left: 290px;
+}
+
+.intrests li {
+  font-family: 'ManropeRegular', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.intrest-h2 {
+  font-family: 'ManropeRegular', sans-serif;
+  font-size: 50px;
+  display: flex;
+  padding-left: 250px;
+  color: #00ffe7;
+}
+
+.sspan {
+  font-style: italic;
+  color: #9fb3c8;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ssspan {
+  color: #84ffff;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .div2 ul li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-  /* SocialLinks.css */
+
 .social-container {
   text-align: center;
-  color: white;
+  color: #ffffff;
   padding: 40px 20px;
   border-radius: 12px;
 }
@@ -162,18 +171,19 @@ body{
   font-size: 2rem;
   letter-spacing: 2px;
   font-weight: bold;
+  color: #00ffe7;
 }
 
 .subtitle {
   margin-top: 10px;
   font-size: 1rem;
-  color: #bbb;
+  color: #9fb3c8;
 }
 
 .highlight {
-  color: white;
+  color: #00ffe7;
   font-weight: 600;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #84ffff;
 }
 
 .icons {
@@ -184,8 +194,8 @@ body{
 }
 
 .icons a {
-  background: white;
-  color: black;
+  background: #ffffff;
+  color: #1d2a35;
   width: 50px;
   height: 50px;
   display: flex;
@@ -199,9 +209,9 @@ body{
 }
 
 .icons a:hover {
-  background: black;
-  color: white;
-  border: 1px solid white;
-  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6); 
-  transform: scale(1.1); /* optional zoom */
+  background: #1d2a35;
+  color: #00ffe7;
+  border: 1px solid #00ffe7;
+  box-shadow: 0 0 15px 5px #00bfa6;
+  transform: scale(1.1);
 }
