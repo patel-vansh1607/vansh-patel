@@ -55,9 +55,20 @@ function App() {
                 </ul>
                 </div>
                 <div className='div2'> 
-                <h1 className='intrest-h2'>INTERESTS</h1>
+                <h1 className='intrest-h2'>EDUCATION</h1>
                 <ul>
-                  <li>Melvin Jones Lions Academy<br></br> <span className='sspan'>Sept 2012 - Sept 2024</span></li>
+                  <li>
+                    Melvin Jones Lions Academy
+                    <br></br>
+                    <span className='ssspan'>
+                      Year 1 - Year 12
+                    </span>
+                    <br></br>
+                    <span className='sspan'>
+                      Sept 2012 - Sept 2024
+                    </span>
+                    </li>
+
                 </ul>
                 </div>
               </div>
