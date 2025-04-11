@@ -69,6 +69,31 @@ function App() {
                     </span>
                     </li>
 
+                    <li>
+                    Kabarak University, Nakuru
+                    <br></br>
+                    <span className='ssspan'>
+                      Diploma in Computer Science
+                    </span>
+                    <br></br>
+                    <span className='sspan'>
+                      Sept 2024 - Present
+                    </span>
+                    </li>
+
+                    <li>
+                    Rift Koders
+                    <br></br>
+                    <span className='ssspan'>
+                      Full Stack Engineering Student
+                    </span>
+                    <br></br>
+                    <span className='sspan'>
+                      August 2024 - Present
+                    </span>
+                    </li>
+
+
                 </ul>
                 </div>
               </div>
