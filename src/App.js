@@ -101,10 +101,10 @@ function App() {
                   Feel free to <span className="highlight">connect</span> with me
                 </p>
                 <div className="icons">
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/patel-vansh1607" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-github"></i>
                   </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/vansh-patel-72650b26a/" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </div>
