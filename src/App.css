@@ -139,4 +139,10 @@ body{
     font-style: italic;
     color: gray;
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ssspan{
+    color: rgb(92, 91, 91);
+    font-family:'Times New Roman', Times, serif;
 }
