@@ -95,6 +95,7 @@ function App() {
                 </ul>
                 </div>
               </div>
+              <hr className="faded-hr" />
               <div className="social-container">
                 <h1 className="title">FIND ME ON</h1>
                 <p className="subtitle">
