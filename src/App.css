@@ -150,4 +150,59 @@ body{
 .div2 ul li {
     margin-bottom: 20px;
 }
-  
+  /* SocialLinks.css */
+.social-container {
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+.title {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.highlight {
+  color: white;
+  font-weight: 600;
+  border-bottom: 1px solid white;
+}
+
+.icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.icons a {
+  background: white;
+  color: black;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-size: 1.2rem;
+  box-shadow: 0 0 0 transparent;
+}
+
+.icons a:hover {
+  background: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6); /* ✨ glow effect */
+  transform: scale(1.1); /* optional zoom */
+}
