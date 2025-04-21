@@ -6,7 +6,7 @@ const AboutPage = () => {
         <div className="main div">
             <Navbar />
             <div className="div-1">
-                <p>designer</p>
+                <p className="role" >designer</p>
                 <p>UI/UX | Branding | Graphic Design</p>
                 <p>Click anywhere to view more...</p>
             </div>
