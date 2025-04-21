@@ -7,7 +7,7 @@ const AboutPage = () => {
             <Navbar />
             <div className="div-1">
                 <p className="role" >designer</p>
-                <p>UI/UX | Branding | Graphic Design</p>
+                <p className="skill" >UI/UX | Branding | Graphic Design</p>
                 <p>Click anywhere to view more...</p>
             </div>
             <div className="div-2"></div>
