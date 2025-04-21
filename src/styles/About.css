@@ -1,4 +1,4 @@
-body, html {
+.main-div{
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -6,7 +6,7 @@ body, html {
 }
 
 .div-1, .div-2, .div-3, .div-4 {
-    height: calc(100vh - 80px); 
+    height: calc(100vh - 100px); 
     width: 25%;
     float: left;
 }
