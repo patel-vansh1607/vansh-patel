@@ -5,14 +5,7 @@ const AboutPage = () => {
     return(
         <div className="main div">
             <Navbar />
-            <div className="div-1">
-                <p className="role" >designer</p>
-                <p className="skill" >UI/UX | Branding | Graphic Design</p>
-                <p className="cta"> Click anywhere to view more...</p>
-            </div>
-            <div className="div-2"></div>
-            <div className="div-3"></div>
-            <div className="div-4"></div>
+            
         </div>
     )
 }
