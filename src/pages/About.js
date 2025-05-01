@@ -7,7 +7,14 @@ const AboutPage = () => {
             <Navbar />
             <div className="header">
                 <p>INTRESTS</p>
+                <div className="intrest">
+                    <div className="coding"></div>
+                    <div className="designing"></div>
+                    <div className="editing"></div>
+                    <div className="photography"></div>
+                </div>
             </div>
+
         </div>
     )
 }
